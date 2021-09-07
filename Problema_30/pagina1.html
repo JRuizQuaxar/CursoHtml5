@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>--CHECKBOX--</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form action="registrardatos.php" method="post">
+  Mail:
+  <input type="text" name="mail" size="50"><br>
+  Clave:
+  <input type="password" name="clave" size="10"><br>
+  <em>Peliculas a seleccionar:</em>
+  <br>
+  <input type="checkbox" name="pelicula[]" value ="Batman y Robin"><label>Batman y Robin</label><br/>
+  <input type="checkbox" name="pelicula[]" value ="Avengers"><label>Avengers</label><br/>
+  <input type="submit" name="submit" value="Enviar"/>
+</form>
+</body>
+</html>
